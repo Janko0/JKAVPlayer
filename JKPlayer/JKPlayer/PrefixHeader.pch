@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  JKPlayer
+//
+//  Created by 杨可 on 2016/12/23.
+//  Copyright © 2016年 Janko. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "SVProgressHUD.h"
+#import "UIButton+EnlargeEdge.h"
+//#import "TTPlayerViewMananger.h"
+#import "UIView+Extend.h"
+#import "UIColor+extension.h"
+#import "UIView+Extension.h"
+#import "UIImage+ImageEffects.h"
+
+
+#import "JKPlayerViewMananger.h"
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define KToolViewHoldTime        3.0
+
+#endif /* PrefixHeader_pch */
